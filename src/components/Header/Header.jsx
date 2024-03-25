@@ -29,11 +29,11 @@ export const Header = () => {
           </IconWrapper>
           Home
         </StyledLink>
-        <StyledLink to="/logo">
+        <StyledLink to="/login">
           <IconWrapper>
             <use href={`${sprite}#icon-logo`} />
           </IconWrapper>
-          Logo
+          Login
         </StyledLink>
         <StyledLink to="/register">
           <IconWrapper>
