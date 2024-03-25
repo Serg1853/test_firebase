@@ -23,6 +23,24 @@ export const Header = () => {
           </IconWrapper>
           Second
         </StyledLink>
+        <StyledLink to="/home">
+          <IconWrapper>
+            <use href={`${sprite}#icon-logo`} />
+          </IconWrapper>
+          Home
+        </StyledLink>
+        <StyledLink to="/logo">
+          <IconWrapper>
+            <use href={`${sprite}#icon-logo`} />
+          </IconWrapper>
+          Logo
+        </StyledLink>
+        <StyledLink to="/register">
+          <IconWrapper>
+            <use href={`${sprite}#icon-logo`} />
+          </IconWrapper>
+          Register
+        </StyledLink>
       </Navigation>
     </HeaderContainer>
   );
